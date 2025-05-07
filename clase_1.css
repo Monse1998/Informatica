@@ -1,0 +1,29 @@
+body
+{
+ font-family:Verdana,arial,courier;
+ font-size:38pt;
+ background:url(https://img.freepik.com/vector-gratis/fondo-hojas-tropicales-zoom_23-2148580778.jpg?semt=ais_hybrid&w=740)no-repeat fixed;
+ background-size:100% 100%;
+ background-position:center;
+}
+p.escuela
+{
+  color:0e5e11;
+  font-size:20pt;
+  text-shadow:3px 9px 17px red;
+}
+
+p.materia
+{
+ font-size:17pt;
+ font-weight:bold;
+ text-shadow:-3px -3px 10px orange;  
+ background-color:454756;
+ border-radius:50px 0px 20px 5px;
+ box-shadow:9px 9px 17px black;
+}
+
+#trasparente
+{
+opacity:70%;
+}

@@ -1,0 +1,167 @@
+<budy>
+    <center>
+      <table>
+        <tr>
+          <td colspan=2 align=center>
+            INFORMACIÓN DEL USUARIO
+          </td>
+        </tr>
+        <tr>
+            <td colspan=2 align=center>
+              <hr>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan=2>
+            Datos Generales
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            Nombre:
+          </td>
+          <td>
+            <input type=text name=nom size=30>
+          </td> 
+        </tr>  
+        
+        <tr>
+          <td>
+            Fecha de nacimiento:
+          </td>
+          <td>
+            <input type=date name=fnd>
+          </td> 
+        </tr>
+        
+        <tr>
+          <td>
+            Correo:
+          </td> 
+          <td>
+            <input type=email name=mail>
+          </td> 
+        </tr>  
+        
+        <tr>
+          <td>
+            Sexo:
+          </td>
+          <td>
+            <input type=radio name=sex value=f>Femenino
+            <input type=radio name=sex value=m>Masculino
+          </td>
+          
+        <tr>
+          <td>
+            Telefono:
+          </td>
+          <td>
+            <input type=tel name=phone placeholder=99-9999-9999 pattern={2}[0-9]-{4}[0-9]-{4}[0-9]>
+          </td> 
+        </tr>
+        
+        <tr>
+          <td>
+            Nivel de Ingles:
+          </td>
+          <td>
+            0<input type=range name=din min=0 max=100 step=50 value=0>100
+          </td> 
+        </tr>
+        
+        <tr>
+            <td colspan=2>
+            Autenticación
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            Usuario:
+          </td>
+          <td>
+            <input type=text name=usu>
+          </td> 
+        </tr>  
+        
+        <tr>
+          <td>
+            Contraseña:
+          </td>
+          <td>
+            <input type=password name=pas>
+          </td> 
+        </tr>  
+        
+        <tr>
+            <td>
+            Tipo de Usuario:
+          </td>
+          <td>
+            <select name=tus>
+              <option value=alumno>Alumno</option>
+              <option value=docente>Docente</option>
+              <option value=oficina>Oficina</option>
+              <option value=exalumno>Exalumno</option>
+              <option value="padre o tutor">Padre o tutor</option>
+            </select>
+          </td> 
+        </tr>
+        
+        <tr>
+          <td>
+            Interdaz:
+          </td>
+          <td>
+            <input type=color name=back value=#FFFFFFF>Fondo
+            <input type=color name=text value=#FFFFFFF>Texto
+          </td>
+        
+        <tr>
+            <td colspan=2>
+            Tema de Interes
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type=checkbox name=ti1>Arte<br>
+            <input type=checkbox name=ti2>Cultura<br>
+            <input type=checkbox name=ti3>Deporte<br>
+            <input type=checkbox name=ti4>Ciencia
+             </td>
+          <td>
+            <input type=checkbox name=ti5>Literatura<br>
+            <input type=checkbox name=ti6>Entretenimineto<br>
+            <input type=checkbox name=ti7>Tecnología<br>
+            <input type=checkbox name=ti8>Otro
+          </td>
+        </tr>  
+         
+        <tr>
+            <td colspan=2>
+            Comentarios
+          </td>
+        </tr>
+        <tr>
+          <td colspan=2>
+            <textarea name=com placeholder="Escriba aquí sus comentarios"cols=50 rows=5></textarea>
+          </td>
+        </tr>
+        
+        <tr>
+            <td colspan=2 align=center>
+              <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan=2 align=center>
+              <input type=submit value="Haga click aquí para enviar los datos">
+            </td>
+        </tr>
+        
+      </table>
+    </center>
+  </budy>
